@@ -18,17 +18,8 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/">
-          <Users />
-        </Route>
-        <Route exact path="/users/create">
-          <CreateUser />
-        </Route>
         <Route exact path="/socket">
           <SocketPlayGround />
-        </Route>
-        <Route exact path="/users/edit/:userId">
-          <UpdateUser />
         </Route>
         <Route exact path="/chating">
           <Chating />
